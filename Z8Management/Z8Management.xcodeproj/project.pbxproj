@@ -12,13 +12,30 @@
 		4CA54D3C1991CEC200BE2327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA54D3B1991CEC200BE2327 /* UIKit.framework */; };
 		4CA54D421991CEC200BE2327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54D401991CEC200BE2327 /* InfoPlist.strings */; };
 		4CA54D441991CEC200BE2327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D431991CEC200BE2327 /* main.m */; };
-		4CA54D481991CEC200BE2327 /* ZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D471991CEC200BE2327 /* ZMAppDelegate.m */; };
 		4CA54D4A1991CEC200BE2327 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54D491991CEC200BE2327 /* Images.xcassets */; };
 		4CA54D511991CEC200BE2327 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA54D501991CEC200BE2327 /* XCTest.framework */; };
 		4CA54D521991CEC200BE2327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA54D371991CEC200BE2327 /* Foundation.framework */; };
 		4CA54D531991CEC200BE2327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA54D3B1991CEC200BE2327 /* UIKit.framework */; };
 		4CA54D5B1991CEC200BE2327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54D591991CEC200BE2327 /* InfoPlist.strings */; };
 		4CA54D5D1991CEC200BE2327 /* Z8ManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D5C1991CEC200BE2327 /* Z8ManagementTests.m */; };
+		4CA54D811991D7B000BE2327 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D6F1991D7B000BE2327 /* AFHTTPRequestOperation.m */; };
+		4CA54D821991D7B000BE2327 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D711991D7B000BE2327 /* AFHTTPRequestOperationManager.m */; };
+		4CA54D831991D7B000BE2327 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D731991D7B000BE2327 /* AFHTTPSessionManager.m */; };
+		4CA54D841991D7B000BE2327 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D761991D7B000BE2327 /* AFNetworkReachabilityManager.m */; };
+		4CA54D851991D7B000BE2327 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D781991D7B000BE2327 /* AFSecurityPolicy.m */; };
+		4CA54D861991D7B000BE2327 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D7A1991D7B000BE2327 /* AFURLConnectionOperation.m */; };
+		4CA54D871991D7B000BE2327 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D7C1991D7B000BE2327 /* AFURLRequestSerialization.m */; };
+		4CA54D881991D7B000BE2327 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D7E1991D7B000BE2327 /* AFURLResponseSerialization.m */; };
+		4CA54D891991D7B000BE2327 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D801991D7B000BE2327 /* AFURLSessionManager.m */; };
+		4CA54D8D1991D8B600BE2327 /* ZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54D8C1991D8B600BE2327 /* ZMAppDelegate.m */; };
+		4CA54DA71991D98D00BE2327 /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54DA51991D98D00BE2327 /* ZMBaseViewController.m */; };
+		4CA54DA81991D98D00BE2327 /* ZMBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DA61991D98D00BE2327 /* ZMBaseViewController.xib */; };
+		4CA54DAC1991D9B100BE2327 /* ZMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54DAA1991D9B100BE2327 /* ZMLoginViewController.m */; };
+		4CA54DAD1991D9B100BE2327 /* ZMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DAB1991D9B100BE2327 /* ZMLoginViewController.xib */; };
+		4CA54DB11991D9CE00BE2327 /* ZMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54DAF1991D9CE00BE2327 /* ZMHomeViewController.m */; };
+		4CA54DB21991D9CE00BE2327 /* ZMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DB01991D9CE00BE2327 /* ZMHomeViewController.xib */; };
+		4CA54DB51991DA0900BE2327 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DB41991DA0900BE2327 /* login_background.png */; };
+		4CA54DB91991DB6100BE2327 /* ZMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54DB81991DB6100BE2327 /* ZMAPIClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +57,46 @@
 		4CA54D411991CEC200BE2327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CA54D431991CEC200BE2327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA54D451991CEC200BE2327 /* Z8Management-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Z8Management-Prefix.pch"; sourceTree = "<group>"; };
-		4CA54D461991CEC200BE2327 /* ZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMAppDelegate.h; sourceTree = "<group>"; };
-		4CA54D471991CEC200BE2327 /* ZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMAppDelegate.m; sourceTree = "<group>"; };
-		4CA54D491991CEC200BE2327 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CA54D491991CEC200BE2327 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Z8Management/Images.xcassets; sourceTree = "<group>"; };
 		4CA54D4F1991CEC200BE2327 /* Z8ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Z8ManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA54D501991CEC200BE2327 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4CA54D581991CEC200BE2327 /* Z8ManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Z8ManagementTests-Info.plist"; sourceTree = "<group>"; };
 		4CA54D5A1991CEC200BE2327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CA54D5C1991CEC200BE2327 /* Z8ManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Z8ManagementTests.m; sourceTree = "<group>"; };
+		4CA54D6E1991D7B000BE2327 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4CA54D6F1991D7B000BE2327 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4CA54D701991D7B000BE2327 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4CA54D711991D7B000BE2327 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4CA54D721991D7B000BE2327 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4CA54D731991D7B000BE2327 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4CA54D741991D7B000BE2327 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4CA54D751991D7B000BE2327 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4CA54D761991D7B000BE2327 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4CA54D771991D7B000BE2327 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4CA54D781991D7B000BE2327 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4CA54D791991D7B000BE2327 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4CA54D7A1991D7B000BE2327 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4CA54D7B1991D7B000BE2327 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4CA54D7C1991D7B000BE2327 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4CA54D7D1991D7B000BE2327 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4CA54D7E1991D7B000BE2327 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4CA54D7F1991D7B000BE2327 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4CA54D801991D7B000BE2327 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4CA54D8B1991D8B600BE2327 /* ZMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMAppDelegate.h; sourceTree = "<group>"; };
+		4CA54D8C1991D8B600BE2327 /* ZMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMAppDelegate.m; sourceTree = "<group>"; };
+		4CA54DA41991D98D00BE2327 /* ZMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMBaseViewController.h; path = Base/ZMBaseViewController.h; sourceTree = "<group>"; };
+		4CA54DA51991D98D00BE2327 /* ZMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZMBaseViewController.m; path = Base/ZMBaseViewController.m; sourceTree = "<group>"; };
+		4CA54DA61991D98D00BE2327 /* ZMBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZMBaseViewController.xib; path = Base/ZMBaseViewController.xib; sourceTree = "<group>"; };
+		4CA54DA91991D9B100BE2327 /* ZMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMLoginViewController.h; path = Login/ZMLoginViewController.h; sourceTree = "<group>"; };
+		4CA54DAA1991D9B100BE2327 /* ZMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZMLoginViewController.m; path = Login/ZMLoginViewController.m; sourceTree = "<group>"; };
+		4CA54DAB1991D9B100BE2327 /* ZMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZMLoginViewController.xib; path = Login/ZMLoginViewController.xib; sourceTree = "<group>"; };
+		4CA54DAE1991D9CE00BE2327 /* ZMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMHomeViewController.h; path = Home/ZMHomeViewController.h; sourceTree = "<group>"; };
+		4CA54DAF1991D9CE00BE2327 /* ZMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZMHomeViewController.m; path = Home/ZMHomeViewController.m; sourceTree = "<group>"; };
+		4CA54DB01991D9CE00BE2327 /* ZMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZMHomeViewController.xib; path = Home/ZMHomeViewController.xib; sourceTree = "<group>"; };
+		4CA54DB41991DA0900BE2327 /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_background.png; sourceTree = "<group>"; };
+		4CA54DB71991DB6100BE2327 /* ZMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMAPIClient.h; path = APIClient/ZMAPIClient.h; sourceTree = "<group>"; };
+		4CA54DB81991DB6100BE2327 /* ZMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZMAPIClient.m; path = APIClient/ZMAPIClient.m; sourceTree = "<group>"; };
+		4CA54DBA1991DD0600BE2327 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				4CA54D3D1991CEC200BE2327 /* Z8Management */,
+				4CA54D491991CEC200BE2327 /* Images.xcassets */,
 				4CA54D561991CEC200BE2327 /* Z8ManagementTests */,
 				4CA54D361991CEC200BE2327 /* Frameworks */,
 				4CA54D351991CEC200BE2327 /* Products */,
@@ -107,9 +157,10 @@
 		4CA54D3D1991CEC200BE2327 /* Z8Management */ = {
 			isa = PBXGroup;
 			children = (
-				4CA54D461991CEC200BE2327 /* ZMAppDelegate.h */,
-				4CA54D471991CEC200BE2327 /* ZMAppDelegate.m */,
-				4CA54D491991CEC200BE2327 /* Images.xcassets */,
+				4CA54DB31991DA0900BE2327 /* Resources */,
+				4CA54D8E1991D8BF00BE2327 /* Classes */,
+				4CA54D8A1991D8B600BE2327 /* AppDelegate */,
+				4CA54D6C1991D7B000BE2327 /* 3rdLibs */,
 				4CA54D3E1991CEC200BE2327 /* Supporting Files */,
 			);
 			path = Z8Management;
@@ -142,6 +193,148 @@
 				4CA54D591991CEC200BE2327 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CA54D6C1991D7B000BE2327 /* 3rdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54D6D1991D7B000BE2327 /* AFNetworking */,
+			);
+			path = 3rdLibs;
+			sourceTree = "<group>";
+		};
+		4CA54D6D1991D7B000BE2327 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54D6E1991D7B000BE2327 /* AFHTTPRequestOperation.h */,
+				4CA54D6F1991D7B000BE2327 /* AFHTTPRequestOperation.m */,
+				4CA54D701991D7B000BE2327 /* AFHTTPRequestOperationManager.h */,
+				4CA54D711991D7B000BE2327 /* AFHTTPRequestOperationManager.m */,
+				4CA54D721991D7B000BE2327 /* AFHTTPSessionManager.h */,
+				4CA54D731991D7B000BE2327 /* AFHTTPSessionManager.m */,
+				4CA54D741991D7B000BE2327 /* AFNetworking.h */,
+				4CA54D751991D7B000BE2327 /* AFNetworkReachabilityManager.h */,
+				4CA54D761991D7B000BE2327 /* AFNetworkReachabilityManager.m */,
+				4CA54D771991D7B000BE2327 /* AFSecurityPolicy.h */,
+				4CA54D781991D7B000BE2327 /* AFSecurityPolicy.m */,
+				4CA54D791991D7B000BE2327 /* AFURLConnectionOperation.h */,
+				4CA54D7A1991D7B000BE2327 /* AFURLConnectionOperation.m */,
+				4CA54D7B1991D7B000BE2327 /* AFURLRequestSerialization.h */,
+				4CA54D7C1991D7B000BE2327 /* AFURLRequestSerialization.m */,
+				4CA54D7D1991D7B000BE2327 /* AFURLResponseSerialization.h */,
+				4CA54D7E1991D7B000BE2327 /* AFURLResponseSerialization.m */,
+				4CA54D7F1991D7B000BE2327 /* AFURLSessionManager.h */,
+				4CA54D801991D7B000BE2327 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4CA54D8A1991D8B600BE2327 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54D8B1991D8B600BE2327 /* ZMAppDelegate.h */,
+				4CA54D8C1991D8B600BE2327 /* ZMAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4CA54D8E1991D8BF00BE2327 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DB61991DB4800BE2327 /* APIClient */,
+				4CA54D931991D8E300BE2327 /* CustomViews */,
+				4CA54D901991D8BF00BE2327 /* Models */,
+				4CA54D911991D8BF00BE2327 /* Utilities */,
+				4CA54D921991D8BF00BE2327 /* ViewControllers */,
+				4CA54D8F1991D8BF00BE2327 /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4CA54D8F1991D8BF00BE2327 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DBA1991DD0600BE2327 /* define.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4CA54D901991D8BF00BE2327 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CA54D911991D8BF00BE2327 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4CA54D921991D8BF00BE2327 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DA01991D92E00BE2327 /* Base */,
+				4CA54D9A1991D90B00BE2327 /* Login */,
+				4CA54D941991D8F100BE2327 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4CA54D931991D8E300BE2327 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		4CA54D941991D8F100BE2327 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DAE1991D9CE00BE2327 /* ZMHomeViewController.h */,
+				4CA54DAF1991D9CE00BE2327 /* ZMHomeViewController.m */,
+				4CA54DB01991D9CE00BE2327 /* ZMHomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		4CA54D9A1991D90B00BE2327 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DA91991D9B100BE2327 /* ZMLoginViewController.h */,
+				4CA54DAA1991D9B100BE2327 /* ZMLoginViewController.m */,
+				4CA54DAB1991D9B100BE2327 /* ZMLoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		4CA54DA01991D92E00BE2327 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DA41991D98D00BE2327 /* ZMBaseViewController.h */,
+				4CA54DA51991D98D00BE2327 /* ZMBaseViewController.m */,
+				4CA54DA61991D98D00BE2327 /* ZMBaseViewController.xib */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4CA54DB31991DA0900BE2327 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DB41991DA0900BE2327 /* login_background.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CA54DB61991DB4800BE2327 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				4CA54DB71991DB6100BE2327 /* ZMAPIClient.h */,
+				4CA54DB81991DB6100BE2327 /* ZMAPIClient.m */,
+			);
+			name = APIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +413,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA54DA81991D98D00BE2327 /* ZMBaseViewController.xib in Resources */,
+				4CA54DB21991D9CE00BE2327 /* ZMHomeViewController.xib in Resources */,
 				4CA54D421991CEC200BE2327 /* InfoPlist.strings in Resources */,
+				4CA54DAD1991D9B100BE2327 /* ZMLoginViewController.xib in Resources */,
 				4CA54D4A1991CEC200BE2327 /* Images.xcassets in Resources */,
+				4CA54DB51991DA0900BE2327 /* login_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +437,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA54DAC1991D9B100BE2327 /* ZMLoginViewController.m in Sources */,
+				4CA54D871991D7B000BE2327 /* AFURLRequestSerialization.m in Sources */,
+				4CA54D861991D7B000BE2327 /* AFURLConnectionOperation.m in Sources */,
+				4CA54D851991D7B000BE2327 /* AFSecurityPolicy.m in Sources */,
+				4CA54DA71991D98D00BE2327 /* ZMBaseViewController.m in Sources */,
+				4CA54DB91991DB6100BE2327 /* ZMAPIClient.m in Sources */,
+				4CA54D811991D7B000BE2327 /* AFHTTPRequestOperation.m in Sources */,
+				4CA54D8D1991D8B600BE2327 /* ZMAppDelegate.m in Sources */,
+				4CA54D891991D7B000BE2327 /* AFURLSessionManager.m in Sources */,
+				4CA54D881991D7B000BE2327 /* AFURLResponseSerialization.m in Sources */,
 				4CA54D441991CEC200BE2327 /* main.m in Sources */,
-				4CA54D481991CEC200BE2327 /* ZMAppDelegate.m in Sources */,
+				4CA54DB11991D9CE00BE2327 /* ZMHomeViewController.m in Sources */,
+				4CA54D831991D7B000BE2327 /* AFHTTPSessionManager.m in Sources */,
+				4CA54D821991D7B000BE2327 /* AFHTTPRequestOperationManager.m in Sources */,
+				4CA54D841991D7B000BE2327 /* AFNetworkReachabilityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
