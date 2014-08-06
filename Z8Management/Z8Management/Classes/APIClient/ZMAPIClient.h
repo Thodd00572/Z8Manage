@@ -15,5 +15,5 @@
 
 #pragma mark - API Prototypes
 
-- (void)loginWithUserName:(NSString *)userName password:(NSString *)pass completionBlock:(void(^)(NSDictionary * userInfo, NSEnumerator *error))block;
+- (void)loginWithUserName:(NSString *)userName password:(NSString *)pass completionBlock:(void(^)(NSDictionary * userInfo, NSError *error))block;
 @end

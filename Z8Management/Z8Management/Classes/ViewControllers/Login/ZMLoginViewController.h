@@ -11,7 +11,7 @@
 @interface ZMLoginViewController : ZMBaseViewController
 
 #pragma mark - IBOutlet
-@property (weak, nonatomic) IBOutlet UITextField *txtEmail;
+@property (weak, nonatomic) IBOutlet UITextField *txtAccount;
 @property (weak, nonatomic) IBOutlet UITextField *txtPassword;
 
 #pragma mark - IBAction
