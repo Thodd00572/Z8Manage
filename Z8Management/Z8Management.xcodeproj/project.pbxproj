@@ -34,8 +34,13 @@
 		4CA54DAD1991D9B100BE2327 /* ZMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DAB1991D9B100BE2327 /* ZMLoginViewController.xib */; };
 		4CA54DB11991D9CE00BE2327 /* ZMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54DAF1991D9CE00BE2327 /* ZMHomeViewController.m */; };
 		4CA54DB21991D9CE00BE2327 /* ZMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DB01991D9CE00BE2327 /* ZMHomeViewController.xib */; };
-		4CA54DB51991DA0900BE2327 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA54DB41991DA0900BE2327 /* login_background.png */; };
 		4CA54DB91991DB6100BE2327 /* ZMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA54DB81991DB6100BE2327 /* ZMAPIClient.m */; };
+		4CA6D5BA1992151F0030E5D9 /* bg_login_textfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6D5B81992151F0030E5D9 /* bg_login_textfield@2x.png */; };
+		4CA6D5BB1992151F0030E5D9 /* bg_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6D5B91992151F0030E5D9 /* bg_login@2x.png */; };
+		4CA6D5C0199218F80030E5D9 /* ic_circle-orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6D5BC199218F80030E5D9 /* ic_circle-orange@2x.png */; };
+		4CA6D5C1199218F80030E5D9 /* ic_circle-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6D5BD199218F80030E5D9 /* ic_circle-white@2x.png */; };
+		4CA6D5C2199218F80030E5D9 /* ic_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6D5BE199218F80030E5D9 /* ic_lock@2x.png */; };
+		4CA6D5C3199218F80030E5D9 /* icon-lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA6D5BF199218F80030E5D9 /* icon-lock@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,10 +98,15 @@
 		4CA54DAE1991D9CE00BE2327 /* ZMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMHomeViewController.h; path = Home/ZMHomeViewController.h; sourceTree = "<group>"; };
 		4CA54DAF1991D9CE00BE2327 /* ZMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZMHomeViewController.m; path = Home/ZMHomeViewController.m; sourceTree = "<group>"; };
 		4CA54DB01991D9CE00BE2327 /* ZMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZMHomeViewController.xib; path = Home/ZMHomeViewController.xib; sourceTree = "<group>"; };
-		4CA54DB41991DA0900BE2327 /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_background.png; sourceTree = "<group>"; };
 		4CA54DB71991DB6100BE2327 /* ZMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMAPIClient.h; path = APIClient/ZMAPIClient.h; sourceTree = "<group>"; };
 		4CA54DB81991DB6100BE2327 /* ZMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZMAPIClient.m; path = APIClient/ZMAPIClient.m; sourceTree = "<group>"; };
 		4CA54DBA1991DD0600BE2327 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		4CA6D5B81992151F0030E5D9 /* bg_login_textfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_login_textfield@2x.png"; sourceTree = "<group>"; };
+		4CA6D5B91992151F0030E5D9 /* bg_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_login@2x.png"; sourceTree = "<group>"; };
+		4CA6D5BC199218F80030E5D9 /* ic_circle-orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_circle-orange@2x.png"; sourceTree = "<group>"; };
+		4CA6D5BD199218F80030E5D9 /* ic_circle-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_circle-white@2x.png"; sourceTree = "<group>"; };
+		4CA6D5BE199218F80030E5D9 /* ic_lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_lock@2x.png"; sourceTree = "<group>"; };
+		4CA6D5BF199218F80030E5D9 /* icon-lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-lock@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,7 +333,12 @@
 		4CA54DB31991DA0900BE2327 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4CA54DB41991DA0900BE2327 /* login_background.png */,
+				4CA6D5BC199218F80030E5D9 /* ic_circle-orange@2x.png */,
+				4CA6D5BD199218F80030E5D9 /* ic_circle-white@2x.png */,
+				4CA6D5BE199218F80030E5D9 /* ic_lock@2x.png */,
+				4CA6D5BF199218F80030E5D9 /* icon-lock@2x.png */,
+				4CA6D5B81992151F0030E5D9 /* bg_login_textfield@2x.png */,
+				4CA6D5B91992151F0030E5D9 /* bg_login@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -414,11 +429,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA54DA81991D98D00BE2327 /* ZMBaseViewController.xib in Resources */,
+				4CA6D5C3199218F80030E5D9 /* icon-lock@2x.png in Resources */,
 				4CA54DB21991D9CE00BE2327 /* ZMHomeViewController.xib in Resources */,
+				4CA6D5C0199218F80030E5D9 /* ic_circle-orange@2x.png in Resources */,
+				4CA6D5BB1992151F0030E5D9 /* bg_login@2x.png in Resources */,
 				4CA54D421991CEC200BE2327 /* InfoPlist.strings in Resources */,
+				4CA6D5C2199218F80030E5D9 /* ic_lock@2x.png in Resources */,
+				4CA6D5BA1992151F0030E5D9 /* bg_login_textfield@2x.png in Resources */,
 				4CA54DAD1991D9B100BE2327 /* ZMLoginViewController.xib in Resources */,
 				4CA54D4A1991CEC200BE2327 /* Images.xcassets in Resources */,
-				4CA54DB51991DA0900BE2327 /* login_background.png in Resources */,
+				4CA6D5C1199218F80030E5D9 /* ic_circle-white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +670,7 @@
 				4CA54D621991CEC200BE2327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CA54D631991CEC200BE2327 /* Build configuration list for PBXNativeTarget "Z8ManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +679,7 @@
 				4CA54D651991CEC200BE2327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

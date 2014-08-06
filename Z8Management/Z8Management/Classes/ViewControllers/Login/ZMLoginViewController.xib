@@ -17,38 +17,29 @@
             <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="vhk-6c-lqr">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_login.png" translatesAutoresizingMaskIntoConstraints="NO" id="vhk-6c-lqr">
                     <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxI-GB-krT">
-                    <rect key="frame" x="258" y="563" width="253" height="49"/>
-                    <state key="normal" title="Forgot your password?">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="didPressBtnForgot:" destination="-1" eventType="touchUpInside" id="JTi-40-Qoy"/>
-                    </connections>
-                </button>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pwc-0e-osS">
-                    <rect key="frame" x="217" y="376" width="334" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" background="bg_login_textfield.png" translatesAutoresizingMaskIntoConstraints="NO" id="pwc-0e-osS">
+                    <rect key="frame" x="257" y="392" width="255" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="lmv-DU-uzv"/>
                     </connections>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="511-gM-Ipw" userLabel="Account">
-                    <rect key="frame" x="217" y="306" width="334" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" background="bg_login_textfield.png" translatesAutoresizingMaskIntoConstraints="NO" id="511-gM-Ipw" userLabel="Account">
+                    <rect key="frame" x="257" y="300" width="255" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="7nL-lb-hYf"/>
                     </connections>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDt-sK-NpX">
-                    <rect key="frame" x="324" y="487" width="121" height="49"/>
+                    <rect key="frame" x="324" y="512" width="121" height="49"/>
                     <state key="normal" title="Login">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -57,12 +48,17 @@
                         <action selector="didPressBtnLogin:" destination="-1" eventType="touchUpInside" id="h8r-CZ-eeW"/>
                     </connections>
                 </button>
+                <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnh-ea-BVg" userLabel="logoView">
+                    <rect key="frame" x="199" y="56" width="384" height="180"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
         </view>
     </objects>
     <resources>
-        <image name="login_background.png" width="640" height="1136"/>
+        <image name="bg_login.png" width="768" height="1024"/>
+        <image name="bg_login_textfield.png" width="255" height="31"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
