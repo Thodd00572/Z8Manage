@@ -11,7 +11,7 @@
 
 
 #pragma mark - API Definition
-#define kBaseURL @"http://10.88.106.255:8080/Z8HR"
+#define kBaseURL @"http://10.88.106.255:8080/Z8HRM"
 #define kAPILogin @"login"
 
 #pragma mark - API Keys

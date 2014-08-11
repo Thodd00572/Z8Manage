@@ -88,7 +88,6 @@
 - (void)login
 {
     // Call login API to login into system
-    
     [[ZMAPIClient sharedClient] loginWithUserName:_txtAccount.text
                                          password:_txtPassword.text
                                   completionBlock:^(NSDictionary *userInfo, NSError *error) {
